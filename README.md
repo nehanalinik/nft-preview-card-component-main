@@ -56,7 +56,7 @@ I learned how to hover on one element and the other element gets opacity 1.
 
 ### Continued development
 
-I would in future continue developing and learning and growing my knowledge.
+I would in future continue developing and keep learning and growing my knowledge in css.
 
 ## Author
 
