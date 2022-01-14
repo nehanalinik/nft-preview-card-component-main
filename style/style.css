@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+/*(main BG)*/
+/*(card BG)*/
+/*(line)*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #0d192b;
+  margin: 0;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main {
+  background-color: #14253d;
+  width: 350px;
+  max-width: 350px;
+  border-radius: 0.75rem;
+}
+
+.main .header {
+  position: relative;
+}
+
+.main .header .equilibrium {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 280px;
+  margin: 1.15rem 0 1rem 2.2rem;
+  border-radius: 1.15rem;
+}
+
+.main .header .view {
+  padding: 7.25rem;
+  position: absolute;
+  top: 0;
+  margin: 0rem 0 1rem 2.2rem;
+  border-radius: 1.15rem;
+  background-color: rgba(0, 255, 247, 0.4);
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.main .header .view:hover {
+  opacity: 1;
+}
+
+.main .title {
+  font-size: 1.15rem;
+  padding: 0.5rem 2.5rem;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.main .title:hover {
+  color: #00fff7;
+}
+
+.main .description {
+  padding: 0.5rem 2.5rem;
+  color: #8bacda;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.main .etherium__details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.5rem 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.main .etherium__details .etherium {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #00fff7;
+}
+
+.main .etherium__details .etherium .etherium__img {
+  margin-right: 0.4rem;
+}
+
+.main .etherium__details .clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1rem;
+  color: #8bacda;
+  font-weight: 300;
+}
+
+.main .etherium__details .clock .clock__img {
+  margin-right: 0.4rem;
+}
+
+.main .personal__details {
+  border-top: 1px solid #2f415b;
+  width: 80%;
+  margin-left: 2.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 1rem 1.5rem;
+}
+
+.main .personal__details p {
+  color: #8bacda;
+  font-weight: 300;
+}
+
+.main .personal__details span {
+  cursor: pointer;
+}
+
+.main .personal__details span:hover {
+  color: #00fff7;
+}
+
+.main .personal__details .avatar {
+  width: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+footer .attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */
