@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Website Preview](./images/design-ss.png)
+![Website Preview](./images/desktop-view.png)
 
 ### Links
 
