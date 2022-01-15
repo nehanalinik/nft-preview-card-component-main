@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-I learned how to hover on one element and the other element gets opacity 1.
+I learned how to hover on one element and the other element returns the opacity to 1.
 
 ```css
 .view {
